@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  trilium-backup-git:
+    build: .
+    volumes:
+      - ~/trilium-backups/:/backups
+    env_file:
+      - .env

@@ -1,10 +1,8 @@
 #!/bin/sh
 
-ROOT_DIR="/backups"
-
 /usr/local/bin/python /backup_script.py
 
-cd "${ROOT_DIR}"
+cd /backups
 
 # Git configuration
 git config --global user.email "${GIT_USER_EMAIL}"

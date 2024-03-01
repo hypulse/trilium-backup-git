@@ -8,7 +8,7 @@ Trilium notes already has built-in backup features, but I wanted to save my note
 To get started, you'll need the following:
 
 1. Trilium Notes
-2. ETAPI Token for Trilium Notes
+2. ETAPI Token
 3. Git Repository
 4. Git Personal Access Token
 5. Docker

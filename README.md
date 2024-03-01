@@ -48,7 +48,7 @@ Visit github's documentation for more information on personal access tokens.
 docker run -d \
   --name trilium-backup \
   --env-file .env \
-  -v ~/trilium-backup/:/backups \
+  -v ~/trilium-backup:/backups \
   hypulse/trilium-backup-git
 ```
 

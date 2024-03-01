@@ -10,7 +10,7 @@ To get started, you'll need the following:
 1. Trilium Notes
 2. ETAPI Token
 3. Git Repository
-4. Git Personal Access Token
+4. Personal Access Token
 5. Docker
 
 ## Configuration

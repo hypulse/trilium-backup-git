@@ -2,7 +2,7 @@ version: '3'
 
 services:
   trilium-backup-git:
-    build: .
+    image: hypulse/trilium-backup-git
     volumes:
       - ~/trilium-backups/:/backups
     env_file:
